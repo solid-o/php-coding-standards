@@ -1,0 +1,27 @@
+{
+    "name": "solido/php-coding-standards",
+    "description": "Coding standards metapackage for solido suite",
+    "type": "metapackage",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alessandro Chitolina",
+            "email": "alekitto@gmail.com"
+        },
+        {
+            "name": "Massimiliano Braglia",
+            "email": "massimiliano.braglia@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.4|^8.0",
+        "doctrine/coding-standard": "^7.0",
+        "phpstan/phpstan": "^0.12.23",
+        "roave/security-advisories": "dev-master",
+        "slevomat/coding-standard": "^6.3",
+        "squizlabs/php_codesniffer": "^3.5",
+        "thecodingmachine/phpstan-safe-rule": "^1.0",
+        "thecodingmachine/phpstan-strict-rules": "^0.12.0",
+        "thecodingmachine/safe": "^1.1"
+    }
+}
