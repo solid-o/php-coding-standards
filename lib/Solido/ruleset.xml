@@ -1,6 +1,5 @@
 <?xml version="1.0"?>
 <ruleset>
-    <arg name="basepath" value="."/>
     <arg name="extensions" value="php"/>
     <arg name="parallel" value="16"/>
     <arg name="colors"/>
