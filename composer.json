@@ -1,7 +1,7 @@
 {
     "name": "solido/php-coding-standards",
     "description": "Coding standards metapackage for solido suite",
-    "type": "library",
+    "type": "phpcodesniffer-standard",
     "license": "MIT",
     "authors": [
         {
@@ -15,6 +15,7 @@
     ],
     "require": {
         "php": "^7.4|^8.0",
+        "dealerdirect/phpcodesniffer-composer-installer": "*",
         "doctrine/coding-standard": "^7.0",
         "phpstan/phpstan": "^0.12.23",
         "roave/security-advisories": "dev-master",
