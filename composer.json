@@ -1,7 +1,7 @@
 {
     "name": "solido/php-coding-standards",
     "description": "Coding standards metapackage for solido suite",
-    "type": "metapackage",
+    "type": "library",
     "license": "MIT",
     "authors": [
         {
