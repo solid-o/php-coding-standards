@@ -1,0 +1,5 @@
+services:
+	-
+		class: Solido\CodingStandards\PHPStan\Type\DtoResolverReturnTypeExtension
+		tags:
+			- phpstan.broker.dynamicMethodReturnTypeExtension
