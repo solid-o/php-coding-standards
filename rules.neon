@@ -1,5 +1,27 @@
+parametersSchema:
+	solido: structure([
+		dto_namespaces: arrayOf('string'),
+		excluded_interfaces: arrayOf('string')
+	])
+
+parameters:
+	solido:
+		dto_namespaces: []
+		excluded_interfaces: []
+
 services:
 	-
 		class: Solido\CodingStandards\PHPStan\Type\DtoResolverReturnTypeExtension
 		tags:
 			- phpstan.broker.dynamicMethodReturnTypeExtension
+
+	-
+		class: Solido\CodingStandards\PHPStan\DTOClassMapFactory
+		arguments:
+			dtoNamespaces: %solido.dto_namespaces%
+			excludedInterfaces: %solido.excluded_interfaces%
+
+	-
+		class: Solido\CodingStandards\PHPStan\Rule\Construction\DisallowConstructionOfDTOObjects
+		tags:
+			- phpstan.rules.rule

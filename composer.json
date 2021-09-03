@@ -17,6 +17,7 @@
         "php": "^7.4 || ^8.0",
         "dealerdirect/phpcodesniffer-composer-installer": "*",
         "doctrine/coding-standard": "^9.0",
+        "kcs/class-finder": "^0.3",
         "phpstan/extension-installer": "^1.0",
         "phpstan/phpstan": "^0.12.23",
         "roave/security-advisories": "dev-master",

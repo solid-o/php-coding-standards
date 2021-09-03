@@ -16,6 +16,8 @@ use PHPStan\Type\ObjectType;
 use PHPStan\Type\Type;
 use Solido\DtoManagement\InterfaceResolver\ResolverInterface;
 
+use function count;
+
 class DtoResolverReturnTypeExtension implements DynamicMethodReturnTypeExtension
 {
     public function getClass(): string

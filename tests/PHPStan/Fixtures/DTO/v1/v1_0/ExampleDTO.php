@@ -8,4 +8,8 @@ use Tests\PHPStan\Fixtures\DTO\Contracts\ExampleDTOInterface;
 
 class ExampleDTO implements ExampleDTOInterface
 {
+    public function staticConstruction(): void
+    {
+        $obj = new static();
+    }
 }
