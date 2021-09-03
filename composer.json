@@ -50,7 +50,7 @@
         }
     },
     "archive": {
-        "exclude": [ "tests", ".gitignore" ]
+        "exclude": [ ".github", "tests", ".gitignore" ]
     },
     "config": {
         "sort-packages": true
