@@ -10,9 +10,6 @@
     <arg name="extensions" value="php"/>
     <arg name="colors" />
 
-    <!-- Show progress of the run -->
-    <arg value="p"/>
-
     <rule ref="Solido"/>
 
     <file>lib</file>

@@ -5,7 +5,7 @@
     <arg name="colors"/>
 
     <!-- Ignore warnings, show progress of the run and show sniff names -->
-    <arg value="nps"/>
+    <arg value="ns"/>
 
     <!-- Include full Doctrine Coding Standard -->
     <rule ref="Doctrine">
