@@ -14,14 +14,14 @@
         }
     ],
     "require": {
-        "php": "^7.4 || ^8.0",
+        "php": "^8.1",
         "dealerdirect/phpcodesniffer-composer-installer": "*",
         "doctrine/coding-standard": ">=11.0",
         "phpstan/extension-installer": "^1.1",
         "phpstan/phpstan": "^1.0",
         "roave/security-advisories": "dev-latest || dev-master",
         "slevomat/coding-standard": "^7.0 || ^8.0",
-        "solido/phpstan-rules": "^0.2",
+        "solido/phpstan-rules": "^0.3",
         "squizlabs/php_codesniffer": "^3.6 || ^4.0",
         "thecodingmachine/phpstan-strict-rules": "^0.12.0 || ^1.0",
         "thecodingmachine/safe": "^1.1 || ^2.0"
