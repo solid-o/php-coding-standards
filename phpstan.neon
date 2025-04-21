@@ -1,3 +1,4 @@
 parameters:
-    checkMissingIterableValueType: false
-    checkGenericClassInNonGenericObjectType: false #check https://github.com/phpstan/phpstan-doctrine/issues/94 for this
+    ignoreErrors:
+        - identifier: missingType.iterableValue
+        - identifier: missingType.generics # check https://github.com/phpstan/phpstan-doctrine/issues/94 for this
