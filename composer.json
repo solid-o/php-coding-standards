@@ -15,9 +15,9 @@
         }
     ],
     "require": {
-        "php": "^8.1",
-        "dealerdirect/phpcodesniffer-composer-installer": "*",
-        "doctrine/coding-standard": ">=11.0",
+        "php": "^8.4",
+        "dealerdirect/phpcodesniffer-composer-installer": "^1.2",
+        "doctrine/coding-standard": "^14.0 || ^15.0",
         "kcs/phpstan-strict-rules": "^0.12.0 || ^1.0 || ^2.0",
         "phpstan/extension-installer": "^1.1",
         "phpstan/phpstan": "^1.12 || ^2.0",
