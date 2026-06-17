@@ -23,7 +23,7 @@
         "phpstan/phpstan": "^1.12 || ^2.0",
         "roave/security-advisories": "dev-latest || dev-master",
         "slevomat/coding-standard": "^7.0 || ^8.0",
-        "solido/phpstan-rules": "^0.4",
+        "solido/phpstan-rules": "^0.4 || ^0.5",
         "squizlabs/php_codesniffer": "^3.6 || ^4.0",
         "thecodingmachine/safe": "^1.1 || ^2.0 || ^3.0"
     },
